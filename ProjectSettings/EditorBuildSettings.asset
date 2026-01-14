@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6c68df47e9499174da10e84cd5667c88
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 62b7f701ab7517140acefaf8c06218c2
+  - enabled: 1
+    path: Assets/Scenes/ch0.5.unity
+    guid: 49e1742660d8a9d45a620ae7193237d3
+  - enabled: 1
+    path: Assets/Scenes/WoodCutting.unity
+    guid: 40725f6a4874f3f4c9e6c2459fcd95e3
+  - enabled: 1
+    path: Assets/Scenes/ch1.unity
+    guid: 4b6cd94a676dfd040a8cdfa8b3c8b915
+  - enabled: 1
+    path: Assets/Scenes/ch1.5.unity
+    guid: f959ba1fa782b9e47b5e850a51fec311
+  - enabled: 1
+    path: Assets/Scenes/StoneFinding.unity
+    guid: b06cfb07269b94a46b3c80d9c68e636a
+  - enabled: 1
+    path: Assets/Scenes/ch2.unity
+    guid: 8ab5437332ffd5c4381ec875734208ef
+  - enabled: 1
+    path: Assets/Scenes/ch2.5.unity
+    guid: d276958827d5d5640abacd4c20fe25b5
+  - enabled: 1
+    path: Assets/Scenes/tempcontrol.unity
+    guid: 1f9b8f0480d6e3a45b6fc665f76d2706
+  - enabled: 1
+    path: Assets/Scenes/ch3.unity
+    guid: 8d023169147e02a4b85874e06e95b21c
+  - enabled: 1
+    path: Assets/Scenes/ch4.unity
+    guid: 0cc2bc542d9724f4f9a18a218144b87e
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 1271c11d94dd2ed419149061fc0013ca, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
