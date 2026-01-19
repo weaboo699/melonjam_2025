@@ -2,7 +2,7 @@
 [image,char,kira,-400,0,1,spFadeIn_1000]
 Gold... precious yet soft.[w]
 Can be shaped into the most delicate forms.[w]
-[image,char2,mercy,400,150,1,spFadeIn_1000]
+[image,char2,mercy,400,0,1,spFadeIn_1000]
 <color=yellow>Do you feel it?</color>[w]
 ...So much. Too much.[w]
 The injured bird outside, the lonely spider in the corner...[w]

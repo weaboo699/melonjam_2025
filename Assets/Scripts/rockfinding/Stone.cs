@@ -11,11 +11,11 @@ public class Stone : MonoBehaviour
     public Sprite hiddenMaterial;  
 
     private SpriteRenderer spriteRenderer;    
-    private Gamemanager gameManager;
+    private RockFindingManager gameManager;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        gameManager = FindObjectOfType<Gamemanager>();
+        gameManager = FindObjectOfType<RockFindingManager>();
 
         ShowAppearance();
     }

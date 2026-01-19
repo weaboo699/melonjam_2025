@@ -194,16 +194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129083672}
   m_CullTransparentMesh: 1
---- !u!1 &252580501 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6461310270252615406, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
-  m_PrefabInstance: {fileID: 1179799991}
-  m_PrefabAsset: {fileID: 0}
---- !u!225 &252580503 stripped
-CanvasGroup:
-  m_CorrespondingSourceObject: {fileID: 5801141604160768344, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
-  m_PrefabInstance: {fileID: 1179799991}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &409358706
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,11 +520,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 726937835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d513d76efee9494ebc605d60ae6d206, type: 3}
+  m_Script: {fileID: 11500000, guid: 82b91cb535832054b9d641009b81246e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gamemanager
-  panel: {fileID: 252580501}
-  canvasGroup: {fileID: 252580503}
+  panel: {fileID: 1964923210}
+  canvasGroup: {fileID: 1964923212}
   HealthSlider: {fileID: 585587160}
   progressSlider: {fileID: 1360032526}
   flipSound: {fileID: 8300000, guid: 355cee52205965441a016b605ea338b0, type: 3}
@@ -542,8 +532,8 @@ MonoBehaviour:
   wrongSound: {fileID: 8300000, guid: 1a75a4c0b336aac42ac13eae37051f40, type: 3}
   backgroundMusic: {fileID: 8300000, guid: 3a6a5577276eb84478d9fbf4a1363a9c, type: 3}
   stonePrefab: {fileID: 6026123619269803059, guid: bb3253666913a044e895462e2ad42d37, type: 3}
-  gridCenter: {fileID: 726937837}
-  spacing: 2
+  gridCenter: {fileID: 409358708}
+  spacing: 1.5
 --- !u!4 &726937837
 Transform:
   m_ObjectHideFlags: 0
@@ -831,6 +821,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8979703936776187382, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979703936776187382, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979703936776187382, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 9039955055722383217, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -844,6 +846,8 @@ PrefabInstance:
     - {fileID: 4397495417734875011, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
     - {fileID: 1057358421357616018, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
     - {fileID: 5762058698825853798, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+    - {fileID: 3307053313107797954, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+    - {fileID: 6690199033149392965, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4834651495752389136, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
       insertIndex: 0
@@ -1204,6 +1208,16 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &1964923210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6461310270252615406, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+  m_PrefabInstance: {fileID: 1179799991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1964923212 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 5801141604160768344, guid: 7f3dadf78b1c3b14d8b760208ea0269b, type: 3}
+  m_PrefabInstance: {fileID: 1179799991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
